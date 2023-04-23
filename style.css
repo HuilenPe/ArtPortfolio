@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* outline: none; */
+}
+
+*::selection {
+    background: #e5e8e8;
+    color: white;
+}
+
+html {
+    font-size: 95%;
+    overflow-x: hidden; /* barra desplazamiento */
+}
+
+body {
+    background: whitesmoke;
+}
+
+section {
+    min-height: 100%;
+    padding: 0 7%;
+    padding-top: 17%;
+    padding-bottom: 30%;
+}
+
+header {
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgb(111, 111, 111);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*z-index: 1000; 
+     top: 0;
+    left: 0;  */
+    /*indica el orden de un elemento posicionado y sus descendientes.*/
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #9fa3a4;
+}
+
+header .nombre {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 30px;
+    color: rgb(105, 104, 104);
+}
+
+input {
+    display: none;
+}
+
+label {
+    font-size: 40px;
+    color: #424949;
+    cursor: pointer;
+    visibility: hidden;
+    /* opacity: 0%; */
+}
+
+header nav a:hover {
+    color: black;
+    text-decoration: line-through;
+}
+
+.inicio {
+    display: flex;
+    background: url(./img/Fondo1.png);
+}
+
+img{
+    width: 35%;
+}
+
+.cv {
+    border: 0px black solid;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424949;
+    padding: 2%;
+    text-align: justify;
+}
+
+.cv p {
+    text-transform: none;
+    margin: 1%;
+}
+
+ul {
+    padding: 1%;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+li {
+    text-transform: none;
+}
+
+.btn-linkedin {
+    margin-left: 10px;
+}
+
+.btn-linkedin:hover {
+    color: #0e76a8;
+}
+
+.ilustraciones {
+    background: url(./img/Fondo2.jpg);
+    background-size: 35%;
+}
+

@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <a href="#">Huilen Peña</a>
+        <a href="#" class="nombre">Huilen Peña</a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label> 
+        <!-- hamburguesa -->
         <nav>
             <a href="#inicio">inicio</a>
             <a href="#bio">bio</a>
@@ -18,14 +22,213 @@
     </header>
 
     <section class="inicio" id="inicio">
-        <div> <!-- MI FOTO -->
-            <img src="" alt="">
-        </div>
+        <img src="./img/ilustracion1.png" alt="">
     </section>
     
     <section class="bio" id="bio">
-        <h1 class="encabezado">BIO</h1>
+        <div class="cv"> 
+            <p>Soy Artista Visual formada en la actual Universidad Provincial de Córdoba en Argentina. Desarrollé mi
+            trabajo artistico en residencias, clínicas y simposios de arte. Mis obras forman parte de algunas colecciones privadas del país donde nací. <br>
+            Actualmente vivo y trabajo en España.
+            </p>
+            
+            <ul>
+                <h2>Formación</h2>
+                <li>Profesorado de artes visuales</li>
+                <li>Diplomatura superior en escultura; premio Medalla de Oro al Mejor Trayecto Artístico otorgado por Rotary Club
+                    Córdoba, Argentina</li>
+                <li>Tecnicatura superior en artes visuales</li>
+            </ul>
+            
+            <ul>
+                <h2>Cursos/seminarios/talleres</h2>
+                <li>Modulo Formativo Introducción a la programación: HTML5 Y CSS3, impartido por Anna Marcilla, Generalitat de
+                    Catalunya, España. (2023) </li>
+                <li>“Encuentro con Salvatore Garau y su arte”. Museo Provincial de Bellas Artes Emilio Caraffa. Organizado Instituto
+                Italiano de Cultura Córdoba y el Consulado General de Italia en Córdoba. Argentina. (2012)</li>
+                <li>Jornadas Multisensoriales, Arteconsentido. Programa Museos Accesibles. Disertante en el
+                dictado del Taller de Creación. Dictado en el Museo Provincial de Bellas Artes Emilio Caraffa.
+                Organizado por la Dirección de Discapacidad y la Dirección de Promoción Cultural para el
+                Desarrollo Social del Gobierno de Córdoba. Argentina. (2012)</li>
+                <li>Proyecto Artístico Cultural “Integrados”, Cátedra Unesco en Seguridad Humana y
+                Desarrollo Regional. Organizado Universidad Blas Pascal, Fundación Rosalía Someira y
+                Ensamble Cultural de Córdoba. Argentina. (2012)</li>
+                <li>Seminario de Morfología, cuatrimestral. Facultad de Arquitectura, Diseño y Urbanismo de la
+                Universidad Nacional del Litoral, provincia de Santa Fé. Argentina. (2011)</li>
+                <li>Seminario de Informática Básica, cuatrimestral. Facultad de Arquitectura, Diseño y
+                 Urbanismo de la Universidad Nacional del Litoral, provincia de Santa Fé. Argentina.(2011)</li>
+                <li>Taller de Estética Relacional. Organizado por el Centro Cultural España Córdoba, institución
+                formada por los intereses mutuos de la Municipalidad de Córdoba. Argentina y la Agencia
+                Española de Cooperación Internacional para el Desarrollo, AECID. España. (2009)</li>
+                <li>IV Jornadas Intercátedras de Pensamiento Latinoamericano
+                Organizado por Centro de Investigaciónes de la Facultad de Filosofía y Humanidades (CIFFyH)
+                de la Universidad Nacional de Córdoba (UNC). Argentina. (2009)</li>
+                <li>Segundas Jornadas sobre Exposiciones de Arte Argentino y Latinoamericano.
+                Curaduría. Diseño y Politicas Culturales. Organizado por UPC conjuntamente con la Asociación Argentina de
+                Críticos del Arte - AACA y Sección Argentina de la Asociación Internacional de Críticos del Arte. (2009)</li>
+            </ul>
 
+            <ul>
+                <h2>Residencias/clinicas/simposios</h2>
+                <li>Clínica EPAC. Artista seleccionada. Dictada por Manuel Ameztoy, Augusto Zanela y Sergio Bazán. Galería ArteXArte.Buenos Aires. Argentina.(2013)</li>
+                <li>7 Artistas/7 puntos de vista. Residencia para artistas. Residencias para artistas de la Ciudad de las Artes, UPC junto
+                 Argento Galería, Buenos Aires, Argentina.(2013)</li>
+                <li>VIII Simposio internacional de escultura en madera. Asistente del escultor Guillermo Rodríguez. Municipalidad de
+                Unquillo, Córdoba, Argentina.
+                Argentina. (2012)</li>
+                <li>6º Encuentro nacional de escultura. Organizado por la Escuela Superior de Bellas Artes Martín
+                Santiago y la Municipalidad de la ciudad de Deán Funes, Córdoba. Argentina. (2010)</li>
+                <li>Pinta Córodba. Muralesc para el Bicentenario. Artista residente; residencia Ciudad de las Artes. Secretaría de
+                Cultura de Córdoba.(2009)</li>
+                <li>5º Encuentro nacional de escultores. Escuela Superior de Bellas Artes Martín Santiago y la
+                Municipalidad de la ciudad de Deán Funes, Córdoba. Argentina. (2009)</li>
+            </ul>
+
+            <ul>
+                <h2>Exposiciones</h2>
+                <li>Familia de artistas. Galería Pasaje 17. Buenos Aires, Argentina.(2016)</li>
+                <li>Ecdisis [junto a la artista Paula Gambaro]. En “Casa de Una”. Galería ArteXArte. Buenos Aires, Argentina.(2014)
+                </li>
+                <li>Torta de videos [junto a la artista Paula Gambaro]. Feria de Arte Eggo, invitación La Curadera. Buenos Aires,
+                    Argentina.(2014)</li>
+                <li>“La del fin” performance en vivo. La sin futuro. Buenos Aires, Argentina. (2013)</li>
+                <li>Otro cuerpo es posible. Muestra en “Plan de Juego #1”. El Ojo Errante. Buenos Aires, Argentina. (2013)</li>
+                <li>Grieta. FUROR Producciones. Panal 361, Buenos Aires, Argentina. (2013)</li>
+                <li>Sin tesis. Sala de Exposiciones Ernesto Farina. Ciudad de las Artes. UPC y Secretaría de Cultura de Córdoba,
+                    Argentina.
+                    (2013)</li>
+                <li>Tributo a la Sin Futuro. Muestra “La del Fin”. La Sin Futuro. Curaduría: Manuel Ameztoy y Augusto Zanela. Buenos
+                    Aires,
+                    Argentina.(2013)</li>
+                <li>Efimeras fashion and Home. Cartilla de productos producidos por artistas. Galerías Efímeras, Córdoba, Argentina.
+                    (2013)</li>
+                <li>Consideraciones móviles “D”. Museo Municipal de Bellas Artes Dr. Genaro Pérez, Secretaría de Cultura,
+                    Municipalidad
+                    de Córdoba, Argentina.(2012)</li>
+                <li>“ego=YO” Galería Tres Cuartos Arte. Córdoba. Argentina. [individual] (2011)</li>
+                <li>Consagradas que consagran. Espacio Cultural de Córdoba, Museo de las Mujeres, Secretaría de Cultura, Gobierno de
+                    Córdoba, Argentina.(2011)</li>
+                <li>Ciclo pertenencia: aplastar la utilidad. Fondo Nacional de las Artes. Buenos Aires Argentina.(2011)</li>
+                <li>Metáfora de acción. Museo Municipal de Bellas Artes Dr. Genaro Perez. Curaduría: José Pizarro. Secretaría de
+                    Cultura, Municipalidad de Córdoba, Argentina.(2010) </li>
+                <li>ALFALFA. Espacios verdes de la Ciudad de las Artes. Escuela Superior de Bellas Artes Doctor José Figueroa
+                    Alcorta;
+                    Ministerio de Educación de la Provincia de Córdoba. (UPC). Argentina.(2010) </li>
+            </ul>
+
+            <ul>
+                <h2>Proyectos</h2>
+                <li>Proyecto M.U.D.A. trabaja de manera conjunta con la artista visual Paula Gambaro. Buenos Aires. Argentina.
+                 (2015)</li>
+                <li>Proyecto Salvatore Garau, Intervención Espacios Verdes del Museo de Bellas Artes Emilio Caraffa, en el marco de
+                    la
+                    exposición del artista. Agencia Córdoba Cultura, Gobierno de la Provincia de Córdoba. Argentina. (2012)</li>
+                <li>Proyecto AlfAAlfA. “Grupo AlfAAlfA”. Escuela Superior de Bellas Artes Doctor José Figueroa Alcorta; Ministerio
+                de
+                Educación de la
+                Provincia de Córdoba. Universidad Provincial de Córdoba (UPC). Argentina. (2010)</li>
+            </ul>
+
+            <a href="http://linkedin.com/in/huilen-peña" class="btn-linkedin" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> linkedin</a>
+        </div>
+    </section>
+
+    <section class="ilustraciones" id="ilustraciones">
+        <div class="caja-contenedora">
+            <div class="caja">
+                <img src="./img/ilustracion2.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion3.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion4.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion5.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion6.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion7.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion8.jpg" alt="" id="img">
+            </div>
+        </div>
+    
+    
+        <div class="caja-contenedora">
+            <div class="caja">
+                <img src="./img/ilustracion9.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion10.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion11.jpg" alt="" id="img">
+            </div>
+            <div class="caja">
+                <img src="./img/ilustracion12.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion13.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion14.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion15.jpg" alt="" id="img">
+            </div>
+        </div>
+    
+        <div class="caja-contenedora">
+            <div class="caja">
+                <img src="./img/ilustracion16.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion17.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion18.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion19.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion20.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion21.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion22.jpg" alt="" id="img">
+            </div>
+    
+            <div class="caja">
+                <img src="./img/ilustracion23.jpg" alt="" id="img">
+            </div>
+        </div>
+    
     </section>
     
 </body>
