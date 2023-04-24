@@ -69,7 +69,7 @@ label {
     font-size: 40px;
     color: #424949;
     cursor: pointer;
-    visibility: hidden;
+    visibility:hidden;
     /* opacity: 0%; */
 }
 
@@ -127,15 +127,15 @@ li {
 .ilustraciones {
     background: url(./img/Fondo2.jpg);
     background-size: 35%;
+    text-align: center;
 }
 
 .ilustraciones .caja-contenedora {
     border: 0px solid black;
-    display: flex;
+    display: inline-block;
     padding: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    vertical-align: top;
+    /* flex-wrap: wrap; */
 }
 
 .ilustraciones .caja-contenedora .caja {   
@@ -145,6 +145,7 @@ li {
     margin: 10px;
     flex-wrap: wrap;
     border-radius: 10px;
+    text-align: center;
 }
 
 .ilustraciones .caja-contenedora .caja img{
