@@ -42,10 +42,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* z-index: 1000; 
-     top: 0;
-    left: 0; */
-    /*indica el orden de un elemento posicionado y sus descendientes.*/
 }
 
 a {
@@ -66,6 +62,7 @@ header input {
 }
 
 header label {
+    margin-left: 5%;
     font-size: 28px;
     color: #424949;
     cursor: pointer;
@@ -141,7 +138,6 @@ li {
 }
 
 .ilustraciones .caja-contenedora {
-    border: 0px solid black;
     display: inline-block;
     padding: 5px;
     vertical-align: top;
@@ -159,6 +155,7 @@ li {
     width: 100%; 
     border-radius: 20px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+    margin: 10px;
 }
 
 .exposiciones {
@@ -170,33 +167,34 @@ li {
 .exposiciones .caja-contenedor {
     display:inline-block;
     vertical-align: top;
+    
 }
 
 .exposiciones .caja-contenedor .caja {
-    width: 400px;
+    width: 380px;
     height: auto;
     margin: 10px;
-    padding: 2rem 1rem;
+    padding: 15px;
     background: white;
-    border-radius: .5rem;
+    border-radius: 20px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
     display:flex;
-    flex-wrap: wrap;
-    text-align: center;      
+    flex-wrap: wrap; 
 }
 
 .exposiciones .caja-contenedor .caja img {
     width: 100%;
     margin-bottom: 12px;
-    border-radius: .5rem;
+    border-radius: 20px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
 }
 
 .exposiciones .caja-contenedor .caja h3 {
+    width: 100%;
     font-size: 15px;
-    text-align: center;
     color: #333;
     padding-top: 15px;
+    text-align: center;
     
 }
 
@@ -209,19 +207,6 @@ li {
     margin: 2rem;
 }
 
-li {
-    color: #666;
-    padding: 0;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-iframe {
-    width: 100%;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-}
-
 .btn-galeria {
     margin-left: 0;
 }
@@ -231,13 +216,15 @@ iframe {
 }
 
 .btn-artista {
-    color: #807f7f;
+    color: #6b6a6a;
     margin-left: 0;
     text-transform: capitalize;
+    text-decoration: underline;
 }
 
 .btn-artista:hover {
     color: #080808;
+   
 }
 
 
@@ -260,7 +247,6 @@ iframe {
         top: 100%;
         left: 0;
         width: 100%;
-        /* color transparente: #FF000*/
         background: white;
         padding: 15px 30px;
         border-top: 1px solid rgba(0, 0, 0, 2);
