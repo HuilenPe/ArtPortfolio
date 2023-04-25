@@ -8,7 +8,6 @@
     box-sizing: border-box;
     text-decoration: none;
     text-transform: uppercase;
-    /* outline: none; */
 }
 
 *::selection {
@@ -18,7 +17,7 @@
 
 html {
     font-size: 95%;
-    overflow-x: hidden; /* barra desplazamiento */
+    overflow-x: scroll; /* barra desplazamiento */
 }
 
 body {
@@ -225,6 +224,16 @@ li {
 .btn-artista:hover {
     color: #080808;
    
+}
+
+footer .caja-contenedor {
+    width: 100%;
+    padding: 2%;   
+}
+
+footer .caja-contenedor p{
+    font-size: 12px;
+    text-align: right;
 }
 
 
