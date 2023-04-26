@@ -205,6 +205,10 @@ li {
     padding: 0;
     margin: 2rem;
 }
+ 
+.exposiciones .caja-contenedor .caja iframe {
+    border-radius: 20px;
+}
 
 .btn-galeria {
     margin-left: 0;
