@@ -32,15 +32,15 @@ section {
 }
 
 header {
+    width: 100%;
     border: 0px solid black;
     position: fixed;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 8px 16px rgb(111, 111, 111);
     padding: 2%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 8px 16px rgb(111, 111, 111);
+    align-items: center;
 }
 
 a {
@@ -256,6 +256,7 @@ footer .caja-contenedor p{
     }
 
     header .navbar {
+        border: 1px solid red;
         position: absolute;
         top: 100%;
         left: 0;
