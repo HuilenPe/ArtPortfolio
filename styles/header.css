@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    position: fixed;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 8px 16px rgb(111, 111, 111);
+    align-items: center;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    color: #9fa3a4;
+}
+
+header .nombre {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 30px;
+    color: rgb(105, 104, 104);
+}
+
+header input {
+    display: none;
+}
+
+header label {
+    margin-left: 5%;
+    font-size: 28px;
+    color: #424949;
+    cursor: pointer;
+    visibility:hidden;
+    opacity: 0;
+}
+
+header nav a:hover {
+    color: black;
+    text-decoration: line-through;
+}
+
+.inicio {
+    display: flex;
+    background: url(./img/Fondo1.png);
+}
+
